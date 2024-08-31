@@ -1,0 +1,82 @@
+/* App Container */
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.App h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Input Field */
+form input[type="text"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Textarea */
+form textarea {
+  padding: 10px;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  resize: vertical;
+}
+
+/* Input and Textarea Focus State */
+form input[type="text"]:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+/* Placeholder Text */
+form input[type="text"]::placeholder,
+form textarea::placeholder {
+  color: #999;
+}
+
+/* Button Styles */
+.btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  align-self: center; /* Centering the button */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+  background-color: #0056b3;
+}
